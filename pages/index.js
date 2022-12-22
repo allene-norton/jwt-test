@@ -83,11 +83,11 @@ export async function getServerSideProps(context) {
 
     // SET PORTAL CLIENT OR COMPANY ID FROM PARAMS
 
-    clientId = context.query.clientId
-    console.log(`clientId: ${clientId}`)
+    // clientId = context.query.clientId
+    // console.log(`clientId: ${clientId}`)
 
-    companyId = context.query.companyId
-    console.log(`companyId: ${companyId}`)
+    // companyId = context.query.companyId
+    // console.log(`companyId: ${companyId}`)
 
     // if (clientId !== undefined) {
     //     const clientRes = await fetch(`https://api-beta.joinportal.com/v1/client/${clientId}`, portalGetReq)
@@ -101,7 +101,7 @@ export async function getServerSideProps(context) {
     //     console.log('No ID Found')
     // }
 
-    console.log(`searchId: ${searchId}`)
+    // console.log(`searchId: ${searchId}`)
 
 
    
